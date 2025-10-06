@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-# first_follow_pred_full.py
-# Implementación de FIRST, FOLLOW y conjuntos de PREDICCIÓN.
-# Uso: ejecutar el script para calcular FIRST/FOLLOW/PRED de gramáticas definidas abajo.
+# David Castellanos
 from typing import Dict, List, Set, Tuple
 from pathlib import Path
 import json
@@ -93,7 +90,7 @@ def save_results(path: str, data):
     Path(path).write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8')
 
 if __name__ == '__main__':
-    # Defina aquí la gramática a analizar (ejemplo: ejercicio 3)
+    # aqui se pone la gramaticas del ejercicio 3
     productions_example = {
         'S': [['A','B','C'], ['S','uno']],
         'A': [['dos','B','C'], ['ε']],
