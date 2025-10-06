@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# first_follow_pred_full_commented_clean.py
-# Versión comentada del algoritmo FIRST/FOLLOW/PRED para estudio.
+# David Castellanos
 from typing import Dict, List, Set, Tuple
 from pathlib import Path
 
@@ -90,5 +88,5 @@ class Grammar:
         return preds
 
 if __name__ == '__main__':
-    # Puedes modificar las gramáticas aquí para probar.
+  
     pass
